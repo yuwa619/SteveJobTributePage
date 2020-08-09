@@ -61,9 +61,12 @@ header {
       width: 50%;
       margin: auto;
     }
-
+    h3 {
+      font-size: 50px;
+      font-weight: bold;
+    }
     #tribute-info {
-      font-size: 20px;
+      font-size: 40px;
     }
 
   }
