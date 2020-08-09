@@ -63,7 +63,7 @@ header {
     }
     header{
         height: 100vh;
-        background-size: cover;
+        background-size: 100vh;
         text-align: center;
     }
     #img-div {
