@@ -1,6 +1,6 @@
 body {
     font-family: 'Nunito', Helvetica;
-    max-height: 1000px;
+    height: 1000px;
 }
 header {
     background-image: url('https://res.cloudinary.com/yuwa/image/upload/v1586470291/sj_1_agi4ad.png');
@@ -32,6 +32,10 @@ header {
                 "footer footer footer";
 }
 
+#tribute-info {
+  margin-top: 40px;
+}
+
 /* @media (max-width: 300px){
     #main{
       grid-template-columns: auto 1fr;
@@ -53,9 +57,14 @@ header {
     display: flex;
     flex-direction: column;
     }
+    body {
+        font-family: 'Nunito', Helvetica;
+        height: 100%;
+    }
     header{
-        /* height: 600px; */
-        background-size: 100%;
+        height: 100vh;
+        background-size: cover;
+        text-align: center;
     }
     #img-div {
       width: 50%;
@@ -70,6 +79,7 @@ header {
     }
 
   }
+/*  responsiveness style end*/
 
 ul {
     display: flex;
@@ -130,6 +140,7 @@ footer {
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     margin-bottom: 3px;
+    height: 40px;
 }
 
 .info {
